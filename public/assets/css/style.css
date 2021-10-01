@@ -1,0 +1,128 @@
+:root {
+  --main-color: #e41e26;
+}
+
+.container {
+  width: 80%;
+  margin: 3em auto;
+}
+
+html {
+  font-size: 16px;
+}
+
+header .navbar-brand {
+  width: 17%;
+}
+
+header .the-body {
+  height: 80vh;
+  background: url("../Pic/3.jpeg");
+  background-position: center center;
+  background-size: cover;
+  background-attachment: scroll;
+}
+.hero-text h6,
+h2,
+h1 {
+  color: #fff;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: black;
+  font-weight: 400;
+  border-bottom: 4px solid #fff;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  border-bottom: 4px solid #e41e26;
+}
+
+header .bg-color {
+  background-color: var(--main-color);
+}
+
+.services {
+  margin-top: 15%;
+}
+
+.trackBox {
+  width: 80%;
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 3em;
+  background: #e41e26;
+  color: #fff;
+}
+
+header .log {
+  background: #e41e26;
+  color: #fff;
+  border-radius: 10rem;
+}
+header h1,
+header h2 {
+  color: var(--main-color);
+}
+header h1 {
+  font-size: 3rem;
+}
+.track {
+  background: url("../imgs/Delivering.jpg") no-repeat center;
+  background-size: cover;
+}
+
+.us .p-3 {
+  height: 320px;
+}
+
+.question {
+  background: url("../imgs/Scooter.jpg") center;
+  background-size: cover;
+}
+
+.question p {
+  font-size: 1.5rem;
+  line-height: 2.5rem;
+}
+
+.question a {
+  text-decoration: none;
+  color: #e41e26;
+  background-color: #fff;
+  padding: 0.8em 2em;
+  border-radius: 100px;
+  box-shadow: 1px 1px 4px #363636;
+  display: inline-block;
+}
+
+footer ul {
+  list-style: none;
+  padding: 0;
+}
+
+footer ul li a {
+  text-decoration: none;
+  color: #000;
+}
+.icons {
+  color: black;
+  font-size: 30px;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 576px) {
+  .services {
+    margin-top: 180px;
+  }
+} /* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .services {
+    margin-top: 150px;
+  }
+} /* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+} /* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+}
